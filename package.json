@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.0.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "serve": "webpack serve --mode=development"
+  }
+}
